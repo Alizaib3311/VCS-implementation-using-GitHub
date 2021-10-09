@@ -5,10 +5,14 @@
     <title>Page Title</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <style>
         * {
             box-sizing: border-box;
         }
+    
         body {
             font-family: Arial, Helvetica, sans-serif;
             margin: 0;
@@ -87,7 +91,12 @@
 
 <body>
 
-    <div class="header">
+
+
+
+
+      
+    <div class="header jumbotron text-center">
         <h1>Version Controol System
         </h1>
         <p>Make group tasks easy</p>
@@ -97,8 +106,8 @@
         <a href="#">VCS</a>
        
     </div>
-
-    <div class="row">
+<div class="container">
+    <div class="row ">
        
         <div class="main">
             <h2>CONNECTION LOCAL REPOSITORY WITH GITHUB</h2>
@@ -108,13 +117,25 @@
             3> git remote add origin https://github.com/Alizaib3311/VCS-implementation-using-GitHub.git <br>
             4> git branch -M  main<br>
             5> git push -u origin main</h5><br>
-            <div ><img height="350px" width="600px" src="vcs SS/connection.JPG"></div>
+            <div ><img style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" height="350px" width="600px" src="vcs SS/connection.JPG"></div>
+            <br>
+        </div>
+        <div class="main">
+            <h2>HOW TO COMMIT AGAIN</h2>
+            <h5>
+                1> git add .<br>
+                2> git commit -m "second commit" <br>
+                3> git push </h5><br>
+            <div><img style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" height="350px" width="600px" src="vcs SS/commit 2.JPG"></div>
             <br>
         </div>
     </div>
+</div>
 
     <div class="footer">
-        <h2>Footer</h2>
+        <p>Ali Zaib <br>
+        <b>email:</b> alizaib3311@gmail.com<br>
+    </p>
     </div>
 
 </body>
